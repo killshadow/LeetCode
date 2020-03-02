@@ -1,0 +1,2 @@
+# LeetCode
+Recode algorithm life.
