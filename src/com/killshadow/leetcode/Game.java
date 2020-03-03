@@ -1,4 +1,4 @@
-package com.killshadow;
+package com.killshadow.leetcode;
 
 public class Game {
     public static void main(String[] args) {

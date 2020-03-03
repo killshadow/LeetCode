@@ -1,4 +1,4 @@
-package com.killshadow;
+package com.killshadow.leetcode;
 
 class MinRemoveToMakeValid {
     public String minRemoveToMakeValid(String s) {

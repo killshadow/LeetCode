@@ -1,4 +1,6 @@
-package com.killshadow;
+package com.killshadow.leetcode;
+
+import com.killshadow.utils.ListNode;
 
 import java.io.BufferedReader;
 import java.io.IOException;

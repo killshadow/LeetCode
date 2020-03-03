@@ -35,7 +35,7 @@ public class CandyCrush {
                     board[backupR--][c] = board[r][c];
                 }
             }
-            while (backupR > 0) {
+            while (backupR >= 0) {
                 board[backupR--][c] = 0;
             }
         }

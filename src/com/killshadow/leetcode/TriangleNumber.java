@@ -1,4 +1,4 @@
-package com.killshadow;
+package com.killshadow.leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
