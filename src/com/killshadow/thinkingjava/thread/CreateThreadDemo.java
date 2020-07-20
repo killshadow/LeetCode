@@ -15,12 +15,7 @@ public class CreateThreadDemo {
         };
         thread.start();
         //2.实现runable接口
-        Thread thread1 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("实现runable接口");
-            }
-        });
+        Thread thread1 = new Thread(() -> System.out.println("实现runable接口"));
         thread1.start();
         //3.实现callable接口
         ExecutorService service = Executors.newSingleThreadExecutor();
