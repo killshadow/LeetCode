@@ -50,6 +50,10 @@ https://leetcode-cn.com/problems/recover-binary-search-tree/solution/zhong-xu-bi
 
 class RecoverTree {
     TreeNode pre, firstNode, secondNode;
+
+    public static void main(String[] args) {
+        
+    }
     public void recoverTree(TreeNode root) {
         inOrder(root);
         int tmp = firstNode.val;
