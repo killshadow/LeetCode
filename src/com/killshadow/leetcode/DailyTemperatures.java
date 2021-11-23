@@ -28,4 +28,24 @@ public class DailyTemperatures {
         }
         return ans;
     }
+
+    public int[] dailyTemperatures2(int[] temperatures) {
+        int len = temperatures.length;
+        int[] ans = new int[len];
+        int left = 0;
+        int right = left + 1;
+        while (left < right && right < len) {
+            while (right < len && temperatures[left] >= temperatures[right]) {
+                right++;
+            }
+            if (right == len) {
+                ans[left] = 0;
+            } else {
+                ans[left] = right - left;
+            }
+            left++;
+            right = left + 1;
+        }
+        return ans;
+    }
 }
